@@ -41,6 +41,11 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=asifdex&theme=radical&show_icons=true" alt="GitHub Stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asifdex&theme=radical&layout=compact" alt="Top Languages"/>
+  
+
+</p>
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=asifdex&theme=cobalt&hide_border=false" alt="GitHub Stats"/>
 </p>
 
 <p align="center">
