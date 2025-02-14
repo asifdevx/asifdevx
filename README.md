@@ -45,7 +45,7 @@
 
 </p>
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=asifdex&theme=cobalt&hide_border=false" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=asifdex&theme=radical&hide_border=false" alt="GitHub Stats"/>
 </p>
 
 <p align="center">
