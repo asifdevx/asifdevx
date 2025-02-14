@@ -1,3 +1,7 @@
+
+<p align="center">
+  <img src="public/readme.png" alt="Quote of the Day" style="width:"full"/>
+</p>
 <h1 align="center">Hi 👋, I'm asifdex</h1>
 <h3 align="center">🚀 Web3 Developer | Frontend & Blockchain Expert | 3+ Years of Experience</h3>
 
