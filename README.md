@@ -1,8 +1,8 @@
 
 <p align="center">
-  <img src="public/readme.png" alt="Quote of the Day" style="width:"full"/>
+  <img src="public/banner.png" alt="Quote of the Day" width="full"/>
 </p>
-<h1 align="center">Hi 👋, I'm asifdex</h1>
+<h1 align="center">Hi 👋, I'm asifdevx</h1>
 <h3 align="center">🚀 Web3 Developer | Frontend & Blockchain Expert | 3+ Years of Experience</h3>
 
 <div align="center">
@@ -11,7 +11,7 @@
       <td width="65%">
         <ul>
           <li>🌱 Learning <strong>Solidity, GraphQL, DAPP</strong></li>
-          <li>👨‍💻 Projects: <a href="https://asifdex.vercel.app">asifdex.vercel.app</a></li>
+          <li>👨‍💻 Projects: <a href="https://asifdevx.vercel.app">asifdevx</a></li>
           <li>📫 Contact: <strong>Xashadulbusiness@gmail.com</strong></li>
         </ul>
       </td>
@@ -43,17 +43,17 @@
 
 <h3 align="center">🔥 GitHub Stats:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=asifdex&theme=radical&show_icons=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asifdex&theme=radical&layout=compact" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=asifdevx&theme=radical&show_icons=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asifdevx&theme=radical&layout=compact" alt="Top Languages"/>
   
 
 </p>
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=asifdex&theme=cobalt&hide_border=false" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=asifdevx&theme=cobalt&hide_border=false" alt="GitHub Stats"/>
 </p>
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote of the Day"/>
 </p>
 
-<p align="center">💙 Made with ❤️ by Asifdex</p>
+<p align="center">💙 Made with ❤️ by AsifDevX</p>

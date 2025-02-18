@@ -42,14 +42,14 @@ const Header = () => {
       <div className="max-screen w-full flex h-full justify-between items-center">
         <div className="flex items-center gap-2">
           <Image
-            src="/fi.png"
+            src="/logo.png"
             alt="logo"
-            width={50}
-            height={40}
+            width={70}
+            height={60}
             className="object-contain"
           />
-          <h1 className="hidden md:inline md:text-[30px] xl:text-[34px] italic ">
-            Asifdex
+          <h1 className="hidden md:inline md:text-[30px] xl:text-[34px] lora">
+            AsifDevX
           </h1>
         </div>
         <div className="md:flex hidden items-center justify-between gap-5">
