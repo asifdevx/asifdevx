@@ -37,4 +37,4 @@ next-env.d.ts
 # Ignore environment files
 .env
 node_modules
-public
+
