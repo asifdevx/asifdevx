@@ -29,7 +29,7 @@ const MobileMenu = ({ isOpen, onClose, activeLink, setactiveLink}: any) => {
         }`}
         >
         <div className="flex items-center justify-between p-4">
-          <Image src="/fi.png" alt="logo" width={50} height={40} />
+          <Image src="/logo.png" alt="logo" width={50} height={40} />
           <button onClick={onClose} className="text-xl text-yellow-400">
             ✖
           </button>

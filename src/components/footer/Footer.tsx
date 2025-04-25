@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="" id="contact">
       <div className="flex py-10  md:flex-row flex-col justify-between dark:text-white text-black items-center max-screen gap-3 md:gap-0">
         <p className="md:text-base text-sm md:font-normal font-light ">
-          Copyright © 2024 Xashadulop
+          Copyright © 2024 AsifdevX
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
@@ -19,7 +19,7 @@ const Footer = () => {
                 transition-transform duration-300 ease-in-out transform hover:scale-110 text-green-400 
                 rounded-lg border border-black-300"
             >
-              <a href={info.link}>
+              <a href={info.link} target="_blank">
                 <Image src={info.img} alt="icons" width={20} height={20} />
               </a>
             </div>

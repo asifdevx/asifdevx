@@ -3,38 +3,41 @@ import React from "react";
 import Image from "next/image";
 
 const Hero = () => {
+  const startingYear = new Date("03 march 2020").getFullYear();
+  const currentYear = new Date().getFullYear();
+
   return (
-    <div className="max-w-7xl mx-auto w-full h-screen  md:h-screen px-5 md:px-14 xl:px-20 gap-20 md:gap-0 flex flex-col md:flex-row justify-center items-center">
-      <div className="w-full md:w-1/2 flex flex-col  items-start">
+    <div className="max-w-7xl mx-auto w-full md:h-screen h-4/2 px-5 md:px-14 xl:px-20 gap-20 md:gap-0 flex flex-col md:flex-row justify-center items-center">
+      <div className="w-full md:w-1/2 flex flex-col  items-start mt-36">
         <h2 className="text-[24px] leading-3 font-extrabold  mb-4 text-red-600 mx-auto md:mx-0">
           HEY THERE!
         </h2>
         <h1 className="mx-auto md:mx-0 text-[30px] md:text-[50px] lg:text-[64px] tsukimi mb-3">
-          I&apos;M JASHADUL ASIF.
+          I&apos;M JASHEDUL ASIF.
         </h1>
-        <span
-          className="w-full my-12 h-1 md:flex hidden dark:bg-white rounded-full bg-black bg-spanLine"
-          
-        />
+        <span className="w-full my-12 h-1 md:flex hidden dark:bg-white rounded-full bg-black bg-spanLine" />
 
         <p className="raleway">
-          I&apos;m a freelancer. specializing in <span className="bg-clip-text text-transparent bg-gradient-to-r font-extrabold text-2xl from-[#4ca5ffce] to-[#b673f8c9]">website developer</span> , Community
-          management and crypto trader
+          I&apos;m a freelancer. specializing in{" "}
+          <span className="bg-clip-text text-transparent bg-gradient-to-r font-extrabold text-2xl from-[#4ca5ffce] to-[#b673f8c9]">
+            website developer
+          </span>{" "}
+          , Community management and crypto trader
         </p>
         <p className=" mt-3 raleway">
-          I have 3+ years of experience as an Web developer and have worked with
-          various clients including Blockchain Innovators . Check out my
-          portfolio to see what I do.
+          I have {currentYear - startingYear} + years of experience as an Web
+          developer and have worked with various clients including Blockchain
+          Innovators . Check out my portfolio to see what I do.
         </p>
-        <button className="relative bg-[#af6aef] mx-auto  md:mx-0 top-5 text-white font-semibold py-2 px-7 transform -skew-x-12 z-20 transition-all duration-300 group ">
+
+        <button className="relative dark:bg-[#fff] bg-[#000] mx-auto dark:text-[#000] text-white md:mx-0 top-5 text-white font-semibold py-2 px-12 transform  z-20 transition-all duration-300 ">
           <a
-            href="https://github.com/asifdex"
+            href="https://github.com/asifdevx"
             target="_blank"
-            className="relative z-30 -skew-x-1"
+            className="relative z-30 "
           >
             GitHub
           </a>
-          <span className="absolute inset-0 w-full h-full bg-gradient-to-t from-purple to-[#8B5CF6] transform translate-y-2 transition-transform duration-300 group-hover:translate-y-0 z-10 " />
         </button>
       </div>
       <div className="relative w-full md:w-1/2 flex justify-center items-center  ">

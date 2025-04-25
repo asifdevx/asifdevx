@@ -33,7 +33,9 @@ const config: Config = {
       blur: {
         50: "50px",
       },
-
+      aspectRatio:{
+        "4/2":"4/2",
+      },
       animation: {
         "gradient-slide": "gradient-slide 1s ease infinite",
         "sun-move": "sun-move 10s linear infinite", 
