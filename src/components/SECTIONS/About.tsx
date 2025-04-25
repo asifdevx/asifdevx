@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="dark:bg-about bg-welcome-l w-full h-full pb-10 pt-10" id="about">
+    <section className="dark:bg-about bg-welcome-l w-full h-full pb-10 pt-10" id="about">
       <div className="max-screen flex flex-col items-start justify-center gap-3">
         <h3 className="text-xl font-extralight">INTERDUCTION</h3>
         <h1 className="font-extrabold text-5xl ">Overview.</h1>
@@ -29,7 +29,7 @@ const About = () => {
             }
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

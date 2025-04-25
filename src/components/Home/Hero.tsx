@@ -7,7 +7,7 @@ const Hero = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="max-w-7xl mx-auto w-full md:h-screen h-4/2 px-5 md:px-14 xl:px-20 gap-20 md:gap-0 flex flex-col md:flex-row justify-center items-center">
+    <section className="max-w-7xl mx-auto w-full md:h-screen h-4/2 px-5 md:px-14 xl:px-20 gap-20 md:gap-0 flex flex-col md:flex-row justify-center items-center">
       <div className="w-full md:w-1/2 flex flex-col  items-start mt-36">
         <h2 className="text-[24px] leading-3 font-extrabold  mb-4 text-red-600 mx-auto md:mx-0">
           HEY THERE!
@@ -25,7 +25,7 @@ const Hero = () => {
           , Community management and crypto trader
         </p>
         <p className=" mt-3 raleway">
-          I have {currentYear - startingYear} + years of experience as an Web
+          I have <strong>{currentYear - startingYear}+ years</strong> + years of experience as an Web
           developer and have worked with various clients including Blockchain
           Innovators . Check out my portfolio to see what I do.
         </p>
@@ -34,6 +34,7 @@ const Hero = () => {
           <a
             href="https://github.com/asifdevx"
             target="_blank"
+            rel="noopener noreferrer"
             className="relative z-30 "
           >
             GitHub
@@ -50,11 +51,12 @@ const Hero = () => {
               alt="profile"
               layout="fill"
               className="object-cover pointer-events-none"
+              priority
             />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -41,7 +41,7 @@ const Contact = () => {
   }
 
   return (
-    <div className=" bg-white dark:bg-black h-full w-full mt-10" id="contact">
+    <section className=" bg-white dark:bg-black h-full w-full mt-10" id="contact">
       <div className="max-screen flex  flex-col md:flex-row items-center justify-center py-20 gap-10">
         <div className="md:w-1/2 w-full flex flex-col justify-self items-center gap-3">
           <h1 className="text-[26px] font-extrabold text-center">
@@ -93,7 +93,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
