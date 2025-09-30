@@ -1,4 +1,7 @@
-import { ReactNode } from "react"
+import { ReactNode } from "react";
+
+
+
 
 declare type HeaderListsProps ={
     name?:string,

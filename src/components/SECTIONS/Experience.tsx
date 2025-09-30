@@ -1,9 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
 
 import { textVariant } from "@/utils/motion";
@@ -25,6 +22,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   };
 
   return (
+    
     <VerticalTimelineElement
       contentStyle={theme == "dark" ? dark : light}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
