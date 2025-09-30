@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 const Hero = () => {
-  const startingYear = new Date("03 march 2020").getFullYear();
+  const startingYear = new Date("03 march 2022").getFullYear();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -17,20 +17,20 @@ const Hero = () => {
         </h1>
         <span className="w-full my-12 h-1 md:flex hidden dark:bg-white rounded-full bg-black bg-spanLine" />
 
-        <p className="raleway">
+        <p className="libre-franklin">
           I&apos;m a freelancer. specializing in{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r font-extrabold text-2xl from-[#4ca5ffce] to-[#b673f8c9]">
             website developer
-          </span>{" "}
+          </span>
           , Community management and crypto trader
         </p>
         <p className=" mt-3 raleway">
-          I have <strong>{currentYear - startingYear}+ years</strong> + years of experience as an Web
+          I have over <strong>{currentYear - startingYear} years</strong> of experience as an Web
           developer and have worked with various clients including Blockchain
           Innovators . Check out my portfolio to see what I do.
         </p>
 
-        <button className="relative dark:bg-[#fff] bg-[#000] mx-auto dark:text-[#000] text-white md:mx-0 top-5 text-white font-semibold py-2 px-12 transform  z-20 transition-all duration-300 ">
+        <button className="relative dark:bg-[#fff] bg-[#000] mx-auto dark:text-[#000]  md:mx-0 top-5 text-white font-semibold py-2 px-12 transform  z-20 transition-all duration-300 ">
           <a
             href="https://github.com/asifdevx"
             target="_blank"
@@ -47,7 +47,7 @@ const Hero = () => {
           {/* Inner container for the image */}
           <div className="relative w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] hover:scale-105 md:hover:scale-100 transition-transform duration-75 ease-in-out  rounded-lg md:rounded-full overflow-hidden">
             <Image
-              src="/profile.jpg"
+              src="/rm_profile.jpg"
               alt="profile"
               layout="fill"
               className="object-cover pointer-events-none"

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://asifdevx.vercel.app
+
+# Sitemaps
+Sitemap: https://asifdevx.vercel.app/sitemap.xml

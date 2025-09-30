@@ -33,6 +33,14 @@
   font-weight: 600;
   font-style: italic;
 }
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+.libre-franklin {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .gradient-bg-about {
   background-color: #0f0e13;

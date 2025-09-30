@@ -4,12 +4,12 @@ export const experiences = [
     company_name: "Frontend Studio",
     icon: "/re.svg",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mar 2023 - Jun 2023",
     points: [
-      "Built and maintained responsive web interfaces using React.js.",
-      "Integrated REST APIs and ensured smooth state management across components.",
-      "Worked closely with UI/UX designers to implement pixel-perfect designs.",
-      "Practiced clean component structure and reusable code patterns."
+      "Built responsive websites using React.js.",
+      "Connected REST APIs and managed data across pages.",
+      "Worked with designers to create clean and user-friendly layouts.",
+      "Wrote reusable code for faster development."
     ],
   },
   {
@@ -17,12 +17,12 @@ export const experiences = [
     company_name: "CodeCraft",
     icon: "/next.svg",
     iconBg: "#E6DEDD",
-    date: "April 2021 - March 2022",
+    date: "Aug 2023 - Dec 2023",
     points: [
-      "Transitioned to full-stack development with Next.js and server-side rendering.",
-      "Built high-performance, SEO-friendly applications with API route integrations.",
-      "Implemented authentication, dynamic routing, and middleware logic.",
-      "Worked with MongoDB and Firebase for backend integration."
+      "Created fast and SEO-friendly apps with Next.js.",
+      "Added login, dynamic pages, and API routes.",
+      "Used MongoDB and Firebase for storing data.",
+      "Improved app speed and performance."
     ],
   },
   {
@@ -30,12 +30,12 @@ export const experiences = [
     company_name: "TechVerse",
     icon: "/ts.svg",
     iconBg: "#383E56",
-    date: "April 2022 - March 2023",
+    date: "Jan 2024 - Dec 2024",
     points: [
-      "Refactored React/Next.js codebases to TypeScript for better scalability.",
-      "Led development of dashboard apps and CMS tools with type safety in mind.",
-      "Improved app reliability and reduced bugs using strict typing and interfaces.",
-      "Collaborated with teams using Git, Vercel, and Postman workflows."
+      "Rebuilt projects with TypeScript for fewer bugs.",
+      "Made dashboards and tools with React and Next.js.",
+      "Improved app stability with type checking.",
+      "Worked in teams using GitHub and Vercel."
     ],
   },
   {
@@ -43,12 +43,12 @@ export const experiences = [
     company_name: "BlockLabs",
     icon: "/soli.svg",
     iconBg: "#E6DEDD",
-    date: "April 2023 - Present",
+    date: "Feb 2025 - Present",
     points: [
-      "Developed and deployed smart contracts using Solidity and Hardhat.",
-      "Integrated smart contracts with frontend using Ethers.js and Wagmi.",
-      "Built dApps with wallet connection (MetaMask), transaction flow, and blockchain event listeners.",
-      "Used The Graph to index and query blockchain data for performant UI updates."
+      "Wrote smart contracts with Solidity and Hardhat.",
+      "Connected wallets like MetaMask to dApps.",
+      "Built NFT marketplace features (mint, buy, sell).",
+      "Used The Graph to show blockchain data in real-time."
     ],
   },
 ];

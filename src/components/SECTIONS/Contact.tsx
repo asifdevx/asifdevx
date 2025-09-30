@@ -17,7 +17,7 @@ const Contact = () => {
     const { name, value } = e.target;
 
     setinputData((pre) => ({ ...pre, [name]: value }));
-    console.log(inputData, "inputdata");
+    
   }
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -36,7 +36,7 @@ const Contact = () => {
     } finally {
       setLoading(false); // This should reset the loading state
       setinputData({ email: "", name: "", message: "" });
-      console.log(inputData);
+      
     }
   }
 
