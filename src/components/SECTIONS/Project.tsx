@@ -33,7 +33,7 @@ const Project = () => {
       </h1>
 
       <div className="w-full mt-12 grid md:grid-cols-2 grid-cols-1 gap-10">
-      {ProjectData.slice(0, projectLimit).map((items) => (
+      {ProjectData.slice(0, projectLimit).reverse().map((items) => (
           <Button
             key={items.id}
             duration={Math.floor(Math.random() * 10000) + 10000}

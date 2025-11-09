@@ -48,4 +48,47 @@
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://bank-liard-eight.vercel.app",
     },
+    {
+      id: 7,
+      title: "Business Client Portfolio",
+      des: "An elegant and dynamic portfolio platform built for business professionals. Features smooth GSAP animations, responsive layouts, and a seamless user experience — designed to impress clients and showcase work beautifully.",
+      img: "/p7.png",
+      iconLists: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gsap/gsap-original.svg",
+      ],
+      link: "https://deshit-seven.vercel.app/",
+    },
+    {
+      id: 8,
+      title: "NFT Marketplace",
+      des: "A next-generation NFT trading platform where users can mint, buy, and sell digital assets. Built with Next.js, Tailwind, TypeScript, MongoDB, GraphQL, WebSocket, and Solidity — a complete full-stack Web3 experience.",
+      img: "/p8.png",
+      iconLists: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
+      ],
+      link: "https://leox-multi.vercel.app/",
+    },
+    {
+      id: 9,
+      title: "Spectrum ICO DApp",
+      des: "A decentralized ICO platform that allows users to join live token presales, connect MetaMask wallets, and purchase tokens securely on Ethereum. Powered by Next.js, Solidity, and Web3.js for a transparent DeFi experience.",
+      img: "/p9.png",
+      iconLists: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ethereum/ethereum-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
+      ],
+      link: "https://spectum-dapp.vercel.app/",
+    }
+    
   ];
