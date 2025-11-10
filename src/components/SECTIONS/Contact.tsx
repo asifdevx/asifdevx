@@ -36,7 +36,6 @@ const Contact = () => {
       update(toastId,{type:"success",message:"Sucessfully submited"})
     } catch{
       update(toastId,{type:"error",message:"Failed to Submit"});
-
     } finally {
       setLoading(false); // This should reset the loading state
       setinputData({ email: "", name: "", message: "" });

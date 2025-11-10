@@ -6,6 +6,7 @@ import Layout from "../Layout/layout";
 import { useRouter } from "next/router";
 import { ThemeProvider } from "@/Layout/themeProvider";
 import Head from "next/head";
+import { ToastContainer } from "react-toastify";
 
 export default function App({ Component, pageProps }: AppProps) {
   const [ready, setReady] = useState(false);
@@ -46,6 +47,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <ThemeProvider attribute="class" defaultTheme="dark">
           <Layout pathname={pathname}>
             <Component {...pageProps} />
+            <ToastContainer />
           </Layout>
         </ThemeProvider>
       ) : null}

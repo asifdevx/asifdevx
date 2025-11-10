@@ -5,12 +5,12 @@ import Header from "@/components/Header/Header";
 import Footer from "@/components/footer/Footer";
 
 
-const Layout = (children:any) => {
+const Layout = (props:any) => {
   useEffect(() => {
     AOS.init({
       duration: 900,
       easing: "ease-in-sine",
-      delay: 100,
+      // delay: 100,
     });
   }, []);
 
@@ -19,7 +19,7 @@ const Layout = (children:any) => {
       <Header/>
       <main className="">
 
-        {children}
+        {props.children}
       </main>
      <Footer/>
     </div>

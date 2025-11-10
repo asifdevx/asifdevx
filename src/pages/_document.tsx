@@ -37,8 +37,7 @@ export default function Document() {
         />
         <meta property="og:image" content="/logo.png" />
         <meta property="og:type" content="website" />
-        <meta name="google-site-verification" content="ajc4SzpUS2rVW9Nom243vFpVhLbiK0tRyCqZ3ndodAw" />
-
+      
         {/* Optional: Twitter Card Meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AsifDevX - Web3 & ICO Developer" />
