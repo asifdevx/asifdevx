@@ -51,10 +51,8 @@ const Project = () => {
       </h1>
 
       <div className="w-full mt-12 grid md:grid-cols-2 grid-cols-1 gap-10">
-        {visibleProjects.reverse().map((items) => {
-            console.log("items", items);
-
-            return (
+        {visibleProjects.reverse().map((items) =>(
+           
               <Button
                 key={items.id}
                 duration={Math.floor(Math.random() * 10000) + 10000}
@@ -109,8 +107,8 @@ const Project = () => {
                   </div>
                 </a>
               </Button>
-            );
-          })}
+            )
+          )}
       </div>
       {projectLimit < ProjectData.length && (
         <div className="w-full text-center mt-8">
