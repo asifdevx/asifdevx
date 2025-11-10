@@ -1,16 +1,16 @@
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/footer/Footer";
 
 
-const Layout = (props: any) => {
+const Layout = (children:any) => {
   useEffect(() => {
     AOS.init({
       duration: 900,
       easing: "ease-in-sine",
-      // delay: 100,
+      delay: 100,
     });
   }, []);
 
@@ -19,7 +19,7 @@ const Layout = (props: any) => {
       <Header/>
       <main className="">
 
-        {props.children}
+        {children}
       </main>
      <Footer/>
     </div>

@@ -1,15 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import { HeaderLists } from "@/config/HeaderLists";
 import { useTheme } from "next-themes";
 import { AiFillSun } from "react-icons/ai";
 import { RxMoon } from "react-icons/rx";
 
+const SunIcon = AiFillSun as unknown as React.FC<React.SVGProps<SVGSVGElement>>;
+const MoonIcon = RxMoon as unknown as React.FC<React.SVGProps<SVGSVGElement>>;
 const MobileMenu = ({ isOpen, onClose, activeLink, setactiveLink}: any) => {
   const { theme, setTheme } = useTheme();
 
-  const toggleTheme = () => setTheme(theme === "dark" ? "light" : "dark");
-
+  const toggleTheme = () => setTheme(theme === "dark" ? "light" : "dark")
+ 
 
   return (
     <>
@@ -53,12 +55,12 @@ const MobileMenu = ({ isOpen, onClose, activeLink, setactiveLink}: any) => {
               >
                 {items.icon ? (
                   theme === "dark" ? (
-                    <AiFillSun
+                    <SunIcon
                       className="text-lg"
-                      onClick={() => toggleTheme()}
+                      onClick={ toggleTheme}
                     />
                   ) : (
-                    <RxMoon onClick={() => toggleTheme()} />
+                    <MoonIcon onClick={toggleTheme} />
                   )
                 ) : (
                   items.name

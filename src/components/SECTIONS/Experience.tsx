@@ -8,6 +8,8 @@ import { experiences } from "@/config/Experience";
 import { useTheme } from "next-themes";
 import { ExperienceCardProps } from "@/types";
 
+
+
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   const { theme } = useTheme();
   const dark = {
@@ -22,7 +24,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   };
 
   return (
-    
+   // @ts-ignore
     <VerticalTimelineElement
       contentStyle={theme == "dark" ? dark : light}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
@@ -91,6 +93,7 @@ const Experience: React.FC = () => {
           theme == "dark" ? bar.darkBar : bar.bar
         }`}
       >
+     // @ts-ignore
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard

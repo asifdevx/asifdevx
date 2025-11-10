@@ -52,8 +52,5 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=asifdevx&theme=cobalt&hide_border=false" alt="GitHub Stats"/>
 </p>
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote of the Day"/>
-</p>
 
 <p align="center">💙 Made with ❤️ by AsifDevX</p>

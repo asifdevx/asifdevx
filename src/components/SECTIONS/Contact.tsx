@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Input from "../ui/Input";
 import axios from "axios";
+import { useToast } from "@/hooks/useToast";
+import { Bounce } from "react-toastify";
 
 const Contact = () => {
   const [inputData, setinputData] = useState({
@@ -9,7 +11,8 @@ const Contact = () => {
     message: "",
   });
   const [loading, setLoading] = useState(false);
-  const [responseMessage, setResponseMessage] = useState("");
+  const {loading:toastLoading,update,error} = useToast();
+  
 
   function handleChange(
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -21,18 +24,19 @@ const Contact = () => {
   }
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    if (Object.values(inputData).some((value)=>value.trim().length ===0)) {
+      error({message:"Fill all Form"});
+      return;
+    }
     e.preventDefault();
     setLoading(true);
+    const toastId= toastLoading({message:"Sending",options:{position:"top-center",transition:Bounce}});
     try {
       await axios.post("/api/contact", inputData);
-      setResponseMessage("Form submitted successfully!");
-    } catch (error: any) {
-      console.error("Error submitting form", error);
-      if (error.response) {
-        console.error("Response data:", error.response.data);
-        console.error("Response status:", error.response.status);
-      }
-      setResponseMessage("Failed to submit form");
+      update(toastId,{type:"success",message:"Sucessfully submited"})
+    } catch{
+      update(toastId,{type:"error",message:"Failed to Submit"});
+
     } finally {
       setLoading(false); // This should reset the loading state
       setinputData({ email: "", name: "", message: "" });
