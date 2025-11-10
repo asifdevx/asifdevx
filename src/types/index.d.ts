@@ -36,7 +36,6 @@ declare type ExperienceType ={
     points: string[];
   }
   declare type ExperienceCardProps ={
-    iconBg: Background<string | number> | undefined;
     experience: ExperienceType;
   }
   

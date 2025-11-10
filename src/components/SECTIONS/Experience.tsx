@@ -24,9 +24,9 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
   };
 
   return (
-   // @ts-ignore
+    // @ts-ignore
     <VerticalTimelineElement
-      contentStyle={theme == "dark" ? dark : light}
+    contentStyle={theme == "dark" ? dark : light}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
@@ -93,7 +93,7 @@ const Experience: React.FC = () => {
           theme == "dark" ? bar.darkBar : bar.bar
         }`}
       >
-     // @ts-ignore
+  {/* @ts-ignore */}
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
