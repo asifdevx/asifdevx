@@ -64,7 +64,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=asifdevx&theme=cobalt&hide_border=false" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=asifdevx&theme=radical" alt="GitHub Streak"/>
 </p>
 
 <h3 align="center">🌐 Connect with Me:</h3>
@@ -72,5 +72,5 @@
 <p align="center">
   <a href="https://twitter.com/asifdevx" target="_blank">Twitter</a> •
   <a href="https://linkedin.com/in/asifdevx" target="_blank">LinkedIn</a> •
-  <a href="https://github.com/asifdevx" target="_blank">GitHub</a>
+  <a href="https://fiverr.com/asifdevx" target="_blank">Fiverr</a>
 </p>
