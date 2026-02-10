@@ -19,7 +19,7 @@
         </ul>
       </td>
       <td align="center" width="35%">
-        <img src="https://www.tech-bhai.com/wp-content/uploads/2024/10/gifImg-8.gif" alt="Developer Animation" width="450" height="210"/>
+        <img src="/dev.gif" alt="Developer Animation" width="450" height="210"/>
       </td>
     </tr>
   </table>
